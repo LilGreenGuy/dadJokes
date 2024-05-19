@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #d1d1d1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dadHeader {
+    font-size: 5rem;
+    margin: 1rem 0rem;
+}
+
+#dadButton {
+    padding: .8rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+#dadBox {
+    font-size: 3rem;
+    max-width: 80%;
+}
