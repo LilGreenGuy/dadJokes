@@ -10,8 +10,12 @@ const createDadJoke = async () => {
 dadButton.addEventListener("click", () => createDadJoke())
 
 const getDadJoke = async () => {
-    const config = {headers: {Accept: "application/json"}}
-    const res = await axios.get("https://icanhazdadjoke.com/", config);
-    console.log(res.data)
-    return res.data.joke;
+    try {
+        const config = { headers: { Accept: "application/json" } }
+        const res = await axios.get("https://icanhazdadjoke.com/", config);
+        console.log(res.data)
+        return res.data.joke;
+    } catch(e) {
+        return "No jokes available! Sorry, dad's out buying a fresh pair of New Balances."
+    }
 }
