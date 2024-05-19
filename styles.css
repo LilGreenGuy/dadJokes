@@ -2,7 +2,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    background: #d1d1d1;
+    background: #8c8c8c;
 }
 
 body {
@@ -18,6 +18,8 @@ body {
 }
 
 #dadButton {
+    background-color: #dddddd;
+    border: none;
     padding: .8rem;
     margin: 1rem;
     border-radius: 0.5rem;
@@ -25,5 +27,6 @@ body {
 
 #dadBox {
     font-size: 3rem;
+    margin: 1rem;
     max-width: 80%;
 }
