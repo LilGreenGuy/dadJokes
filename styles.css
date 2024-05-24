@@ -10,9 +10,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #dadHeader {
+    background-color: unset;
     font-size: 5rem;
     margin: 1rem 0rem;
 }
@@ -26,6 +28,7 @@ body {
 }
 
 #dadBox {
+    background-color: unset;
     font-size: 3rem;
     margin: 1rem;
     max-width: 80%;
