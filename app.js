@@ -61,7 +61,7 @@ class Color {
         const { h, s, l } = this;
         return `hsl(${h},${s}%, ${l}%)`;
     }
-    fullySaturation() {
+    fullSaturation() {
         const { h, l } = this;
         return `hsl(${h},100%, ${l}%)`;
     }
